@@ -1,0 +1,26 @@
+html,
+body {
+    font-family: serif;
+}
+nav {
+    ul {
+        display: flex;
+        border-radius: 2px;
+        list-style-type: disc;
+        padding: 12px;
+        margin: 2rem;
+        box-shadow: 0 0 2px black;
+        li {
+            display: flex;
+            color: red;
+            background-color: red;
+            font-size: 2rem;
+            line-height: 150%;
+            padding: 4rem;
+            text-shadow: 0 0 10px black;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
